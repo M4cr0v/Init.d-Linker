@@ -1,5 +1,5 @@
 # Init.d Linker
-This mod runs init.d scripts as late start service except liveboot which is run as post-fs-data
+This mod runs init.d scripts as late start service.
 
 ## Change Log
 v1.1

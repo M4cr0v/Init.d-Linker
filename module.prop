@@ -2,6 +2,6 @@ id=0000initdlinker
 name=Init.d Linker
 version=v1.1
 versionCode=1.1
-author=ahrion, zackptg5
+author=ahrion, zackptg5, m4cr0v
 description=Runs init.d scripts as late start service except liveboot which is run as post-fs-data
 minMagisk=1500

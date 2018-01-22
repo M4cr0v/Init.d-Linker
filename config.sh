@@ -29,13 +29,13 @@ MODID=0000initdlinker
 
 # Set to true if you need to enable Magic Mount
 # Most mods would like it to be enabled
-AUTOMOUNT=false
+AUTOMOUNT=true
 
 # Set to true if you need to load system.prop
 PROPFILE=false
 
 # Set to true if you need post-fs-data script
-POSTFSDATA=true
+POSTFSDATA=false
 
 # Set to true if you need late_start service script
 LATESTARTSERVICE=true
@@ -49,7 +49,7 @@ LATESTARTSERVICE=true
 print_modname() {
   ui_print "*******************************"
   ui_print "        Init.d Linker          "
-  ui_print "      (ahrion, zackptg5)       "
+  ui_print "  (ahrion, zackptg5, m4cr0v)   "
   ui_print "*******************************"
 }
 
@@ -73,6 +73,7 @@ REPLACE="
 # Construct your own list here, it will overwrite the example
 # !DO NOT! remove this if you don't need to replace anything, leave it empty as it is now
 REPLACE="
+/system/etc/init.d
 "
 
 ##########################################################################################
